@@ -3,14 +3,14 @@ import { Component } from '@angular/core';
 
 // selector - название нового компонента (html тега)
 // template - содержимое нашего нового компонента
-// styles - стили компонента
 @Component({
     selector: 'my-app',
-    template: `<child-comp><h2>Добро пожаловать {{name}}!</h2></child-comp>`,
-    styles: [`h2, p {color:#333;}`]
+    template: `<child-comp [userName]="name" [userAge]="age"></child-comp>
+                <input type="text" [(ngModel)]="name" />`
 })
 
 // клас родительского компонента
 export class AppComponent {
-    name = 'Tom';
+    name:string = 'Tom';
+    age:number = 24;
 }
