@@ -6,3 +6,6 @@ FaceIT Human Resources Management System
 * Создание компонента c таблицей на Ангуляр2 [step2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step2)
 * Создание дочернего компонента на Ангуляр2 [step3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step3)
 * Создание дочернего компонента  и ng-content на Ангуляр2 [step4](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step4)
+* Взаимодействие между компонентами на Ангуляр2 **step5**
+  * Простое взаимодействие компонентов [step5-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-1)
+  * Геттеры и сеттеры [step5-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-2)
