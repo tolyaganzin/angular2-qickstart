@@ -11,3 +11,7 @@ FaceIT Human Resources Management System
   * Геттеры и сеттеры [step5-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-2)
   * Простоя привязка к событию дочернего компонента [step5-3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-3)
   * Двунаправленная привязка к событию дочернего компонента [step5-4](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-4)
+* Жизненный цикл компонента **step6**
+  * Привязка главного компонента к сервисам: ngOnInit и ngOnDestroy [step6-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step6/step6-1)
+  * Привязка дочернего компонента к сервисам: ngOnInit и ngOnChanges [step6-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step6/step6-2)
+  * Простоя привязка к событию дочернего компонента [step6-3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step6/step6-3)
