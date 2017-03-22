@@ -9,3 +9,5 @@ FaceIT Human Resources Management System
 * Взаимодействие между компонентами на Ангуляр2 **step5**
   * Простое взаимодействие компонентов [step5-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-1)
   * Геттеры и сеттеры [step5-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-2)
+  * Простоя привязка к событию дочернего компонента [step5-3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-3)
+  * Двунаправленная привязка к событию дочернего компонента [step5-4](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-4)
