@@ -1,4 +1,4 @@
-# teamgeist-hrm quickstart
+# Angular 2 quickstart
 FaceIT Human Resources Management System
 
 * Создание простого пустого компонента и первого приложения на Ангуляр2 [step0](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step0)
