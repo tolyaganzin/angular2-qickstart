@@ -1,12 +1,12 @@
 # Angular 2 quickstart
 FaceIT Human Resources Management System
 
-* Создание простого пустого компонента и первого приложения на Ангуляр2 [step0](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step0)
-* Создание простого компонента c привязкой на Ангуляр2 [step1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step1)
-* Создание компонента c таблицей на Ангуляр2 [step2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step2)
-* Создание дочернего компонента на Ангуляр2 [step3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step3)
-* Создание дочернего компонента  и ng-content на Ангуляр2 [step4](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step4)
-* Взаимодействие между компонентами на Ангуляр2 **step5**
+* Создание простого пустого компонента и первого приложения [step0](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step0)
+* Создание простого компонента c привязкой [step1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step1)
+* Создание компонента c таблицей [step2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step2)
+* Создание дочернего компонента [step3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step3)
+* Создание дочернего компонента и ng-content [step4](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step4)
+* Взаимодействие между компонентами **step5**
   * Простое взаимодействие компонентов [step5-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-1)
   * Геттеры и сеттеры [step5-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-2)
   * Простоя привязка к событию дочернего компонента [step5-3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step5/step5-3)

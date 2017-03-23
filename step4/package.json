@@ -1,5 +1,5 @@
 {
-    "name": "teamgeist-step2",
+    "name": "Создание дочернего компонента и ng-content",
     "version": "1.0.0",
     "scripts": {
         "lite": "lite-server",

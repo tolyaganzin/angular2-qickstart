@@ -1,5 +1,5 @@
 {
-    "name": "teamgeist-step1",
+    "name": "Создание простого компонента c привязкой",
     "version": "1.0.0",
     "scripts": {
         "lite": "lite-server",
