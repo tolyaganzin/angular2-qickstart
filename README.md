@@ -15,3 +15,9 @@ FaceIT Human Resources Management System
   * Привязка главного компонента к сервисам: ngOnInit и ngOnDestroy [step6-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step6/step6-1)
   * Привязка дочернего компонента к сервисам: ngOnInit и ngOnChanges [step6-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step6/step6-2)
   * Простоя привязка к событию дочернего компонента [step6-3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step6/step6-3)
+* Локальные переменные **step7**
+  * Локальныая переменная в главном шаблоне  [step7-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step7/step7-1)
+  * Локальныая переменная в дочернем шаблоне  [step7-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step7/step7-2)
+  * ViewChild декоратор в главном компоненте [step7-3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step7/step7-3)
+  * ViewChild декоратор в дочернем компоненте [step7-4](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step7/step7-4)
+  * ContentChild декоратор в дочернем компоненте [step7-5](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step7/step7-5)
