@@ -21,3 +21,6 @@ FaceIT Human Resources Management System
   * ViewChild декоратор в главном компоненте [step7-3](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step7/step7-3)
   * ViewChild декоратор в дочернем компоненте [step7-4](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step7/step7-4)
   * ContentChild декоратор в дочернем компоненте [step7-5](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step7/step7-5)
+  * Директивы **step8**
+    * Стандартные директивы [step8-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step8/step8-1)
+    * Написание своих директив [step8-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step8/step8-2)

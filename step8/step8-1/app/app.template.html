@@ -1,0 +1,38 @@
+<h1>Angular 2</h1>
+
+<h2>ngClass</h2>
+<div [ngClass]="{verdanaFont:true}">
+  <h3>ngClass example 1</h3>
+  <p [ngClass]="{verdanaFont:false, segoePrintFont:true}">
+      Angular 2 представляет модульную архитектуру приложения
+  </p>
+</div>
+<div [class.verdanaFont]="true">
+  <h3>ngClass example 2</h3>
+  <p [class.verdanaFont]="false" [class.segoePrintFont]="true">
+      Angular 2 представляет модульную архитектуру приложения
+  </p>
+</div>
+<div [ngClass]="{invisible: visibility}">
+<!-- <div [class.invisible]="visibility"> -->
+<!-- <div [style.display]="visibility==true?'block':'none'"> -->
+  <h3>ngClass example 3</h3>
+  <p>
+      Angular 2 представляет модульную архитектуру приложения
+  </p>
+</div>
+<button (click)="toggle()">Toggle example 3</button>
+
+<h2>ngStyle</h2>
+<div [ngStyle]="{'font-size':'13px', 'font-family':'Verdana'}">
+  <h3>ngStyle example 1</h3>
+  <p [ngStyle]="{'font-size':'14px', 'font-family':'Segoe Print'}">
+      Angular 2 представляет модульную архитектуру приложения
+  </p>
+</div>
+<div [style.fontSize]="'13px'" [style.fontFamily]="'Verdana'">
+  <h3>ngStyle example 2</h3>
+  <p [style.fontSize]="'14px'" [style.fontFamily]="'Segoe Print'">
+      Angular 2 представляет модульную архитектуру приложения
+  </p>
+</div>
