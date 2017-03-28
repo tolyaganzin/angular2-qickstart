@@ -9,9 +9,24 @@ import { Component } from '@angular/core';
 })
 // клас родительского компонента
 export class AppComponent {
+    // ngClass
     visibility: boolean = true;
     // переключаем переменную
-    toggle(){
+    toggleVisibility(){
        this.visibility=!this.visibility;
     }
+
+    // *ngIf
+    condition: boolean=true;
+    // переключаем переменную
+    toggleCondition(){
+       this.condition=!this.condition;
+    }
+
+    // *ngFor
+    items =["Apple iPhone 7", "Huawei Mate 9", "Samsung Galaxy S7", "Motorola Moto Z"];
+
+    // ngSwitch
+    count: number = 5;
+    
 }

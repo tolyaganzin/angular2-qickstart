@@ -1,38 +1,63 @@
-<h1>Angular 2</h1>
 
-<h2>ngClass</h2>
-<div [ngClass]="{verdanaFont:true}">
-  <h3>ngClass example 1</h3>
-  <p [ngClass]="{verdanaFont:false, segoePrintFont:true}">
-      Angular 2 представляет модульную архитектуру приложения
-  </p>
-</div>
-<div [class.verdanaFont]="true">
-  <h3>ngClass example 2</h3>
-  <p [class.verdanaFont]="false" [class.segoePrintFont]="true">
-      Angular 2 представляет модульную архитектуру приложения
-  </p>
-</div>
-<div [ngClass]="{invisible: visibility}">
-<!-- <div [class.invisible]="visibility"> -->
-<!-- <div [style.display]="visibility==true?'block':'none'"> -->
-  <h3>ngClass example 3</h3>
-  <p>
-      Angular 2 представляет модульную архитектуру приложения
-  </p>
-</div>
-<button (click)="toggle()">Toggle example 3</button>
+<div class="centered">
+  <h1>Angular 2</h1>
 
-<h2>ngStyle</h2>
-<div [ngStyle]="{'font-size':'13px', 'font-family':'Verdana'}">
-  <h3>ngStyle example 1</h3>
-  <p [ngStyle]="{'font-size':'14px', 'font-family':'Segoe Print'}">
+  <h2>ngClass</h2>
+  <div [ngClass]="{verdanaFont:true}">
+    <h3>ngClass example 1</h3>
+    <p [ngClass]="{verdanaFont:false, segoePrintFont:true}">
       Angular 2 представляет модульную архитектуру приложения
-  </p>
-</div>
-<div [style.fontSize]="'13px'" [style.fontFamily]="'Verdana'">
-  <h3>ngStyle example 2</h3>
-  <p [style.fontSize]="'14px'" [style.fontFamily]="'Segoe Print'">
+    </p>
+  </div>
+  <div [class.verdanaFont]="true">
+    <h3>ngClass example 2</h3>
+    <p [class.verdanaFont]="false" [class.segoePrintFont]="true">
       Angular 2 представляет модульную архитектуру приложения
-  </p>
+    </p>
+  </div>
+  <div [ngClass]="{invisible: visibility}">
+    <!-- <div [class.invisible]="visibility"> -->
+    <!-- <div [style.display]="visibility==true?'block':'none'"> -->
+    <h3>ngClass example 3</h3>
+    <p>
+      Angular 2 представляет модульную архитектуру приложения
+    </p>
+  </div>
+  <button (click)="toggleVisibility()">Toggle example 3</button>
+
+  <h2>ngStyle</h2>
+  <div [ngStyle]="{'font-size':'13px', 'font-family':'Verdana'}">
+    <h3>ngStyle example 1</h3>
+    <p [ngStyle]="{'font-size':'14px', 'font-family':'Segoe Print'}">
+      Angular 2 представляет модульную архитектуру приложения
+    </p>
+  </div>
+  <div [style.fontSize]="'13px'" [style.fontFamily]="'Verdana'">
+    <h3>ngStyle example 2</h3>
+    <p [style.fontSize]="'14px'" [style.fontFamily]="'Segoe Print'">
+      Angular 2 представляет модульную архитектуру приложения
+    </p>
+  </div>
+
+  <h2>*ngIf</h2>
+  <p *ngIf="condition">Привет мир</p>
+  <p *ngIf="!condition">Пока мир</p>
+  <button (click)="toggleCondition()">Toggle</button>
+
+  <h2>*ngFor</h2>
+  <h3>*ngFor example 1</h3>
+  <ul>
+    <li *ngFor="let item of items">{{item}}</li>
+  </ul>
+  <h3>*ngFor example 2</h3>
+  <div>
+    <p *ngFor="let item of items; let i = index">{{i+1}}.{{item}}</p>
+  </div>
+
+  <h2>ngSwitch</h2>
+  <div [ngSwitch]="count">
+    <template [ngSwitchCase]="1">{{count * 10}}</template>
+    <template [ngSwitchCase]="2">{{count * 100}}</template>
+    <template ngSwitchDefault>{{count * 1000}}</template>
+  </div>
 </div>
