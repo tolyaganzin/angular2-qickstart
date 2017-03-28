@@ -1,7 +1,8 @@
 // метаданные для создания компонента
 import { Component } from '@angular/core';
 // selector - название нового компонента (html тега)
-// template - содержимое нашего нового компонента
+// templateUrl - содержимое разметки нашего нового компонента
+// styleUrls - содержимое стилей нашего нового компонента
 @Component({
     selector: 'my-app',
     templateUrl: `./app/app.template.html`,
@@ -28,5 +29,5 @@ export class AppComponent {
 
     // ngSwitch
     count: number = 5;
-    
+
 }
