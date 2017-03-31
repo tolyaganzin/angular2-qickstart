@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
 // template - содержимое нашего нового компонента
 @Component({
     selector: 'my-app',
-    templateUrl: `./app/app.template.html`
+    templateUrl: `./app/app.template.html`,
+    styleUrls: ['./app/app.styles.css']
 })
 // клас родительского компонента
 export class AppComponent { }
