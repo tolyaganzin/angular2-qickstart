@@ -4,9 +4,7 @@ import { Component } from '@angular/core';
 // template - содержимое нашего нового компонента
 @Component({
     selector: 'my-app',
-    template: `<child-comp #counter></child-comp>
-                <button (click)="counter.increment()">+</button>
-                <button (click)="counter.decrement()">-</button>`
+    templateUrl: `./app/app.template.html`
 })
 // клас родительского компонента
 export class AppComponent { }
