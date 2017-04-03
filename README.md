@@ -25,4 +25,5 @@ FaceIT Human Resources Management System
    * Стандартные директивы [step8-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step8/step8-1)
    * Написание своих директив [step8-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step8/step8-2)
  * Сервисы **step9**
-   * Сервис с данными [step9-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step9/step9-1)
+   * Сервис с данными, сервис логирования (сервис в сервисе) [step9-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step9/step9-1)
+   * Глобальная регистрация сервиса [step9-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step9/step9-2)

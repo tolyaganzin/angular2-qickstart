@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Сервисы</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Бутстрап стили -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <!-- Зависимости npm -->
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/reflect-metadata/Reflect.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <!-- Подключение конфигурации загрузки -->
+        <script src="systemjs.config.js"></script>
+        <!-- Базовая директория проекта -->
+        <!-- <base href="app/" /> -->
+        <!-- Вызов конфигурации загрузки -->
+        <script>
+          System.import('app').catch(function(err){ console.error(err); });
+        </script>
+    </head>
+    <body>
+        <!-- Компонент Ангуляр 2 -->
+        <my-app>Загрузка...</my-app>
+    </body>
+</html>
