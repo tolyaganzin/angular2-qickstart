@@ -1,7 +1,7 @@
-# Step 9-1
+# Step 9-2
 
 ```
-cd step9/step9-1
+cd step9/step9-2
 npm install
 npm start
 ```
@@ -15,11 +15,11 @@ npm start
 * **app/app.component.ts** - главный компонент
 * **app/app.module.ts** - главный модуль
 * **app/main.ts** - инициализация и запуск главного модуля
-* **app/app.template.hrml** - шаблон разметки
-* **app/app.styles.css** - шаблон стилей
-* **app/phone.ts** - клас для данных
-* **app/data.service.ts** - сервис для управления данными
-* **app/log.service.ts** - сервис для логирования данных
+* **app/DataComponent/data.template.hrml** - шаблон разметки
+* **app/DataComponent/phone.ts** - клас для данных
+* **app/DataComponent/data.service.ts** - сервис для управления данными
+* **app/DataComponent/data.component.ts** - компонент для управления данными
+* **app/DataComponent/log.service.ts** - сервис для логирования данных
 
 
 После комнды **npm start** будут сгенерированы автоматически файлы Ангуляр 2 в соответствии с кодом перечисленных файлов выше

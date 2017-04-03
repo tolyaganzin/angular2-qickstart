@@ -38,3 +38,6 @@ jspm_packages
 
 app/*.js
 app/*.map
+
+app/*/*.js
+app/*/*.map

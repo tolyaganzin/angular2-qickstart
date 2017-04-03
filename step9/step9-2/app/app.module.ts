@@ -2,9 +2,15 @@ import { NgModule }      from '@angular/core'; // глаавнаная библ�
 import { BrowserModule } from '@angular/platform-browser'; // для взаимодействия с браузером
 import { FormsModule }   from '@angular/forms'; // для работы с формами и их поля елементами
 import { AppComponent }   from './app.component'; // родительский компонент
+import { DataComponent }   from './dataComponent/data.component'; // компонент для работы с данными
+// сервисы
+import {DataService} from './dataComponent/data.service'; // данные
+import {LogService} from './dataComponent/log.service'; // логирование
+
 @NgModule({
     imports:      [ BrowserModule, FormsModule ], // подключение модулей для компонента
-    declarations: [ AppComponent ], // декларируем собственные компоненты
+    declarations: [ AppComponent, DataComponent ], // декларируем собственные компоненты
+    providers: [DataService, LogService], // регистрация сервисов
     bootstrap:    [ AppComponent ] // добавляем для сборки, что бы компилятор собрал
 })
 // модуль, который будет подтягиваться при импорте в главный инициализации и запуска
