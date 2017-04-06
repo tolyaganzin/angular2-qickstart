@@ -27,3 +27,4 @@ FaceIT Human Resources Management System
  * Сервисы **step9**
    * Сервис с данными, сервис логирования (сервис в сервисе) [step9-1](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step9/step9-1)
    * Глобальная регистрация сервиса [step9-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step9/step9-2)
+* HTTP (сервис) [step10](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step10)
