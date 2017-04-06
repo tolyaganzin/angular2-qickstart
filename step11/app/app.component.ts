@@ -1,7 +1,15 @@
 // метаданные для создания компонента
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 // сервисы
 import { Response } from '@angular/http';
+
+export class Item{
+
+    id: number;
+    product: string;
+    price: number;
+}
 
 // selector - название нового компонента (html тега)
 // template or templateUrl - содержимое разметки нашего нового компонента
@@ -15,7 +23,15 @@ import { Response } from '@angular/http';
        .active a { color: red;}
    `],
     template: `<div>
-                   <h1>Маршрутизация в Angular 2</h1>
+                   <h1 (click)="toHome()">Маршрутизация в Angular 2</h1>
+
+                    <div  class="form-group">
+                      <h3>Параметры объекта</h3>
+                      <input type="number" placeholder="id" [(ngModel)]="item.id" class="form-control" /><br />
+                      <input type="number"  placeholder="price" [(ngModel)]="item.price" class="form-control" /><br />
+                      <input  placeholder="product" [(ngModel)]="item.product" class="form-control" /><br />
+                      <button (click)="goToItem(item)" class="btn">Перейти</button>
+                    </div>
 
                    <ul class="nav">
                        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
@@ -50,4 +66,26 @@ import { Response } from '@angular/http';
               </div>`
 })
 // клас родительского компонента
-export class AppComponent implements OnInit {}
+export class AppComponent {
+
+  item: Item=new Item();
+
+  constructor(private router: Router){}
+
+  goToItem(myItem: Item){
+
+      this.router.navigate(
+          ['/new-item', myItem.id],
+          {
+              queryParams:{
+                  'product': myItem.product,
+                  'price': myItem.price
+              }
+          }
+      );
+  }
+
+  toHome() : void {
+      this.router.navigate(['']);
+  }
+}
