@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Pipes</h1>
+
+  <h2>Date pipe (filter)</h2>
+  <div>Без форматирования: {{myDate}}</div>
+  <div>С форматированием: {{myDate | date}}</div>
+  <div>С форматированием вариант 2: {{myDate | date:"dd/MM/yyyy"}}</div>
+
+  <h2>Numbers</h2>
+  <div>Округление: {{pi | number:'2.1-2'}}</div>
+  <div>Округление 2: {{pi | number:'3.5-5'}}</div>
+  <div>Процент: {{persentage | percent}}</div>
+
+  <h2>Currency</h2>
+  <div>Стандарт: {{persentage | currency}}</div>
+  <div>Точная валюта: {{money | currency:'RUB':true}}</div>
+  <div>Кастомная валюта: {{money | currency:'RUB':false:'1.1-1'}}</div>
+
+  <h2>Strings</h2>
+  <div>В нижний регистр: {{welcome | uppercase}}</div>
+  <div>В верхний регистр: {{welcome | lowercase}}</div>
+  <div>Убрать 3 символа с начала: {{welcome | slice:3}}</div>
+  <div>Убрать 6 с начала и все, что после 11: {{welcome | slice:6:11}}</div>
+
+  <h3>Цепочки pipes</h3>
+  <div>Убрать 6 с начала и все, что после 11 - после возвести в верхний регистр:</div>
+  <div>{{welcome | slice:6:11 | uppercase}}</div>
+</div>
