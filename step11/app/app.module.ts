@@ -23,8 +23,7 @@ const itemRoutes: Routes = [
 // определение маршрутов
 const appRoutes: Routes =[
     { path: '', component: HomeComponent}, // путь к компоненту домашней страници
-    { path: 'about', component: AboutComponent}, // путь к компоненту про проект
-    { path: 'logout', redirectTo: '/'}, // переадрисация на домашнюю страницу при выходе
+    { path: 'about', component: AboutComponent}, // путь к компоненту про проект  
     { path: 'contact', redirectTo: '/about', pathMatch:'full'}, // переадресация на страницу о проекте при точном совпадении адреса
     { path: 'item/:id', component: ItemComponent}, // путь к компоненту с объектом
     { path: 'item/:id', component: ItemComponent, children: itemRoutes},

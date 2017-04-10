@@ -53,9 +53,6 @@ export class Item{
                            <a [routerLink]="['new-item', '223']" [queryParams]="{'product':'tablet'}">Tablet</a>
                        </li>
                        <li routerLinkActive="active">
-                           <a routerLink="/logout">Выйти</a>
-                       </li>
-                       <li routerLinkActive="active">
                            <a routerLink="/bdfj">Чет не то</a>
                        </li>
                    </ul>
