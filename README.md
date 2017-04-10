@@ -29,3 +29,4 @@ FaceIT Human Resources Management System
    * Глобальная регистрация сервиса [step9-2](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step9/step9-2)
 * HTTP (сервис) [step10](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step10)
 * Routes [step11](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step11)
+* Pipes (filters) [step12](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step12)

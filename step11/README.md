@@ -1,4 +1,4 @@
-# Step 11-1
+# Step 11
 
 ```
 cd step11
@@ -6,7 +6,7 @@ npm install
 npm start
 ```
 
-## http
+## Routes
 
 * **package.json** - зависимости и запуск компилятора с сервером
 * **tsconfig.json** - крнфигурирования TypeScrip для Ангуляр 2
