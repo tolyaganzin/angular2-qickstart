@@ -38,28 +38,25 @@ export class Item{
                            <a routerLink="">Главная</a>
                        </li>
                        <li routerLinkActive="active">
-                           <a routerLink="/about" routerLinkActive="active">О сайте</a>
+                           <a routerLink="/about">О сайте</a>
                        </li>
                        <li routerLinkActive="active">
-                           <a routerLink="/contact" routerLinkActive="active">Контакты с перенаправлением</a>
+                           <a routerLink="/contact">Контакты с перенаправлением</a>
                        </li>
                        <li routerLinkActive="active">
                            <a [routerLink]="['item', '5']">item 5</a>
                        </li>
                        <li routerLinkActive="active">
-                           <a [routerLink]="['item', '8']">item 8</a>
+                           <a [routerLink]="['new-item', '12']" [queryParams]="{'product':'phone', 'price': 200}">Phone</a>
                        </li>
                        <li routerLinkActive="active">
-                           <a [routerLink]="['new-item', '5']" [queryParams]="{'product':'phone', 'price': 200}">Phone</a>
+                           <a [routerLink]="['new-item', '223']" [queryParams]="{'product':'tablet'}">Tablet</a>
                        </li>
                        <li routerLinkActive="active">
-                           <a [routerLink]="['new-item', '8']" [queryParams]="{'product':'tablet'}">Tablet</a>
+                           <a routerLink="/logout">Выйти</a>
                        </li>
                        <li routerLinkActive="active">
-                           <a routerLink="/logout" routerLinkActive="active">Выйти</a>
-                       </li>
-                       <li routerLinkActive="active">
-                           <a routerLink="/bdfj" routerLinkActive="active">Чет не то</a>
+                           <a routerLink="/bdfj">Чет не то</a>
                        </li>
                    </ul>
                    <router-outlet></router-outlet>
