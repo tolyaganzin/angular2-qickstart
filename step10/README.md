@@ -1,7 +1,7 @@
-# Step 10-1
+# Step 10
 
 ```
-cd step10/step10-1
+cd step10
 npm install
 npm start
 ```

@@ -44,6 +44,9 @@ export class Item{
                            <a routerLink="/contact">Контакты с перенаправлением</a>
                        </li>
                        <li routerLinkActive="active">
+                           <a routerLink="/secret">Secret</a>
+                       </li>
+                       <li routerLinkActive="active">
                            <a [routerLink]="['item', '5']">item 5</a>
                        </li>
                        <li routerLinkActive="active">
