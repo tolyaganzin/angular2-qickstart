@@ -25,4 +25,46 @@
   <h3>Цепочки pipes</h3>
   <div>Убрать 6 с начала и все, что после 11 - после возвести в верхний регистр:</div>
   <div>{{welcome | slice:6:11 | uppercase}}</div>
+
+  <h3>Свои pipes</h3>
+  <div>Факториал числа {{x}} равен {{x | factorial}}</div>
+  <h4>Join масива</h4>
+  <div>
+    Все елемнеты
+    <p>
+      {{phones | join}}
+    </p>
+  </div>
+  <div>
+    Все начиная с первого индекса
+    <p>
+      {{phones | join:1}}
+    </p>
+  </div>
+  <div>
+    Все начиная с первого индекса и заканчивая 3-м
+    <p>
+      {{phones | join:1:3}}
+    </p>
+  </div>
+
+  <h3>Pure и Impure Pipes</h3>
+
+  <h4>Факториал Pure</h4>
+  <div class="form-inline form-group">
+    <input [(ngModel)]="fact" name="fact" class="form-control">
+    <div>Факториал числа {{fact}} равен {{fact | factorial}}</div>
+  </div>
+
+  <h4>Join масива Impure</h4>
+  <div class="form-inline form-group">
+    <input #phone name="phone" class="form-control">
+    <button class="btn" (click)="phones2.push(phone.value)">Add</button>
+    <p>{{phones2 | join}}</p>
+  </div>
+
+  <h3>AsyncPipe</h3>
+  <p>Модель: {{ phone3| async }}</p>
+  <button (click)="showPhones()">Посмотреть модели</button>
+
 </div>

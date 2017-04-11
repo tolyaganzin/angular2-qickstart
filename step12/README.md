@@ -16,6 +16,8 @@ npm start
 * **app/app.module.ts** - главный модуль
 * **app/main.ts** - инициализация и запуск главного модуля
 * **app/app.template.hrml** - шаблон разметки
+* **app/join.pipe.ts** - работает с масивом
+* **app/factorial.pipe.ts** - вычисляет факториал
 
 
 

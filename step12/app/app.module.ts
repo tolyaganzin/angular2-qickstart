@@ -5,10 +5,13 @@ import { FormsModule } from '@angular/forms'; // для работы с форм
 
 import { AppComponent } from './app.component'; // родительский компонент
 
+// Фильтры pipes
+import { FactorialPipe} from './factorial.pipe'; // факториал фильтр
+import { JoinPipe } from './join.pipe'; // join фильтр
 
 @NgModule({
     imports:      [ BrowserModule, FormsModule ], // подключение модулей для компонента
-    declarations: [ AppComponent ],
+    declarations: [ AppComponent, FactorialPipe, JoinPipe ],
     bootstrap:    [ AppComponent ] // добавляем для сборки, что бы компилятор собрал
 })
 // модуль, который будет подтягиваться при импорте в главный инициализации и запуска
