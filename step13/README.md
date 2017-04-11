@@ -1,12 +1,12 @@
-# Step 12
+# Step 13
 
 ```
-cd step12
+cd step13
 npm install
 npm start
 ```
 
-## Pipes
+## AsyncPipe
 
 * **package.json** - зависимости и запуск компилятора с сервером
 * **tsconfig.json** - крнфигурирования TypeScrip для Ангуляр 2
