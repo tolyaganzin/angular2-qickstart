@@ -32,4 +32,4 @@ FaceIT Human Resources Management System
 * Pipes (filters) [step12](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step12)
 * AsyncPipe [step13](https://github.com/tolyaganzin/angular2-qickstart/tree/master/step13)
 
-###Поздравляю, теперь ты, как и все!
+### Поздравляю, теперь ты, как и все!
